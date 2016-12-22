@@ -3,13 +3,13 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "bloc-atlas"
+  spec.name          = "vegan"
   spec.version       = '0.0.1'
   spec.authors       = ["Gahee Heo"]
   spec.email         = ["ghbooth12Gmail.com"]
 
   spec.summary       = %q{A CSV toolkit.}
-  spec.description   = %q{A CSV toolkit.}
+  spec.description   = %q{A CSV toolkit to import and interfact with a Postgres database.}
   spec.homepage      = "http://github.com/ghbooth12/vegan"
   spec.license       = 'MIT'
 
